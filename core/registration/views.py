@@ -12,6 +12,8 @@ from core.adminlte.views import get_system_config_value
 from core.registration import config
 from core.registration.forms import RegistrationForm, LoginForm
 
+import os
+print os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class LoginView(FormView):
     template_name = 'registration/login.html'
