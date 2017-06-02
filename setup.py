@@ -25,8 +25,6 @@ setuptools.setup(
         #'gevent==1.0.2',
     ],
     dependency_links=[
-        #'git+https://nanny.netease.com/bxx/leazy-ext.git@v0.3.19#egg=leazy_ext-0.3.19',
-        #'git+https://nanny.netease.com/yangjunwei/webapp2-enhance.git@v0.1.1#egg=webapp2_enhance-0.1.1',
     ]
 )
 
